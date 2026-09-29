@@ -58,7 +58,7 @@ def main() -> None:
                     elif line.startswith("READY"):
                         # Sent once at boot, with each pin's idle level.
                         print(f"board: {line}")
-                        if "=LOW" in line:
+                        if "=HIGH" in line:
                             print("warning: a button reads pressed while idle; "
                                   "check its wiring", file=sys.stderr)
             except serial.SerialException:
