@@ -226,17 +226,6 @@ wheels = [
 ]
 
 [[package]]
-name = "hello-esp32"
-version = "0.1.0"
-source = { virtual = "." }
-dependencies = [
-    { name = "platformio" },
-]
-
-[package.metadata]
-requires-dist = [{ name = "platformio", specifier = ">=6.2.0" }]
-
-[[package]]
 name = "idna"
 version = "3.20"
 source = { registry = "https://pypi.org/simple" }
@@ -330,6 +319,17 @@ sdist = { url = "https://files.pythonhosted.org/packages/7d/31/f2289ce78b9b473d5
 wheels = [
     { url = "https://files.pythonhosted.org/packages/6a/23/8146aad7d88f4fcb3a6218f41a60f6c2d4e3a72de72da1825dc7c8f7877c/semantic_version-2.10.0-py2.py3-none-any.whl", hash = "sha256:de78a3b8e0feda74cabc54aab2da702113e33ac9d9eb9d2389bcf1f58b7d9177", size = 15552, upload-time = "2022-05-26T13:35:21.206Z" },
 ]
+
+[[package]]
+name = "sibil"
+version = "0.1.0"
+source = { virtual = "." }
+dependencies = [
+    { name = "platformio" },
+]
+
+[package.metadata]
+requires-dist = [{ name = "platformio", specifier = ">=6.2.0" }]
 
 [[package]]
 name = "starlette"

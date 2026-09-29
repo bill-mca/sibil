@@ -1,5 +1,5 @@
 [project]
-name = "hello-esp32"
+name = "sibil"
 version = "0.1.0"
 requires-python = ">=3.11"
 dependencies = [
